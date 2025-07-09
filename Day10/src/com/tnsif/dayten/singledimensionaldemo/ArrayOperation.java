@@ -2,7 +2,7 @@ package com.tnsif.dayten.singledimensionaldemo;
 
 
 
-class ArrayDemoOne{
+class ArrayOperation{
 	
 	
 	//print int array
@@ -68,16 +68,18 @@ public class ArrayOperation {
 	
 	ArrayDemoOne.printArray(b);
 	//calling of variables argument function 
-	System.out.println("Sum of array elements is : "+ ArrayDemoOne.getSum(b));
-	System.out.println("SUm of array elemts is : "+ ArrayDemoOne.getSum(10,20,30,40,50,60,70));
+	System.out.println("Sum of array elements is : "+ ArrayOperation.getSum(b));
+	System.out.println("SUm of array elemts is : "+ ArrayOperation.getSum(10,20,30,40,50,60,70));
 	
 	b[2] = 999;
 	ArrayDemoOne.printArray(b);
 	
 	//display odd no and even no 
 	
-	System.out.println("Odd number : "+ ArrayDemoOne.getOddCount(b));
-	System.out.println("even number : "+ ArrayDemoOne.getEvenCount(b));
+	System.out.println("Odd number : "+ ArrayOperation.getOddCount(b));
+	System.out.println("even number : "+ ArrayOperation.getEvenCount(b));
+	System.out.println();
+	
 	
 	int c[];
 	//ArrayDemoOne.printArray(c);  //CTE
